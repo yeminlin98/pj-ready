@@ -6,7 +6,15 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    fontFamily:{
+
+      sans: ['Montserrat',  'Padauk' ,'sans-serif'],
+    },
+    extend: {
+      fontFamily:{  
+      heading:['Rubik', 'sans-serif']
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')
